@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Whisper and model files
+whisper-base/
+*.pt
+*.bin
+*.h5
+*.safetensors
+*.msgpack
+*.dll
+
+# Cache / temp
+.cache/
+*.wav
+*.mp4
+uploaded_video.*
+audio.*
+
+# Misc
+.DS_Store
+Thumbs.db
